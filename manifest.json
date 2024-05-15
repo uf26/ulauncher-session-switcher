@@ -1,0 +1,42 @@
+{
+    "required_api_version": "^2.0.0",
+    "name": "Session Manager",
+    "description": "An extension that offers you session options",
+    "developer_name": "lighttigerXIV",
+    "icon": "images/icon.png",
+    "options": {
+        "query_debounce": 0.05
+    },
+    "preferences": [
+        {
+            "id": "kw",
+            "type": "keyword",
+            "name": "Session Manager",
+            "default_value": "sm"
+        },
+        {
+          "id": "lock",
+          "type": "input",
+          "name": "Lock Command",
+          "default_value": "i3lock -c 000000"
+        },
+        {
+          "id": "logout",
+          "type": "input",
+          "name": "Logout Command",
+          "default_value": "i3-msg exit"
+        },
+        {
+          "id": "reboot",
+          "type": "input",
+          "name": "Reboot Command",
+          "default_value": "systemctl reboot"
+        },
+        {
+          "id": "shutdown",
+          "type": "input",
+          "name": "Shutdown Command",
+          "default_value": "systemctl poweroff"
+        }
+    ]
+}
