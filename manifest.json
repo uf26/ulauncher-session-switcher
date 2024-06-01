@@ -12,7 +12,7 @@
             "id": "kw",
             "type": "keyword",
             "name": "Session Manager",
-            "default_value": "p"
+            "default_value": "x"
         },
         {
           "id": "lock",
