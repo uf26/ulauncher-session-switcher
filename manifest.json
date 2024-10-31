@@ -24,7 +24,7 @@
           "id": "logout",
           "type": "input",
           "name": "Logout Command",
-          "default_value": "i3-msg exit"
+          "default_value": "awesome-client 'awesome.quit()'"
         },
         {
           "id": "reboot",
